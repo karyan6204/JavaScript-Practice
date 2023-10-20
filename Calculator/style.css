@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important;
+}
+.col-md-6{
+    margin-top: 200px !important;
+    margin-bottom: 200px !important;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) !important;
+}
+input[type=button]{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+input[type=text]{
+    width: 100%;
+}
+h1{
+    font-weight: bolder !important;
+    margin-top: 15px;
+}
