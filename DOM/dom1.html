@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML access using javascript</title>
+</head>
+<body>
+    <h1 id="textintro">This is a heading</h1>
+    <h2 class="second">This second heading</h2>
+    <h2 class="second">This second heading part 2</h2>
+</body>
+</html>
+<script>
+    const x = document.getElementById('textintro');
+    x.innerHTML = "This heading is accesed by js";
+
+    const y = document.getElementsByClassName('second');
+    y[0].innerHTML = "This heading is accesed by class";
+    y[1].innerHTML = "This part 2 heading is accesed by class";
+</script>
