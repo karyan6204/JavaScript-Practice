@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM onclick</title>
+</head>
+<body>
+    <button onclick="change()">Click me</button>
+    <h1 id="header">This is a heading</h1>
+</body>
+</html>
+
+<script>
+    function change(){
+        const x = document.getElementById('header');
+        x.innerHTML = "This heading is changed using on click function";
+        x.style.color = "indigo";
+    }
+</script>
