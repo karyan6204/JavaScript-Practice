@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM CSS</title>
+    <style>
+        h1{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <h1 id="header">This is a heading tag</h1>
+        <p id="paragraph">This is second heading tag</p>
+    </div>
+</body>
+</html>
+
+<script>
+    const x = document.getElementById('header');
+    const y = document.getElementById('paragraph');
+    const z = document.getElementsByClassName('maindiv');
+    x.style.color = "indigo";
+    y.style.color = "brown";
+    y.style.fontWeight = "bolder";
+    z[0].style.backgroundColor = "cyan";
+</script>
